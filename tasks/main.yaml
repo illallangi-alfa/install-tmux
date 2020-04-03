@@ -1,0 +1,7 @@
+---
+- name: "Install tmux"
+  package:
+    pkg: "{{ install_tmux_packages[(ansible_os_family | lower) + '_' + (ansible_architecture | lower)] }}"
+    state: "present"
+  tags:
+    - "tmux"

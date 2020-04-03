@@ -1,0 +1,6 @@
+---
+install_tmux_packages:
+  debian: &debian
+    - "tmux"
+  debian_armv7l: *debian
+  debian_x86_64: *debian
