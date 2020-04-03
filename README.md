@@ -1,1 +1,1 @@
-# install-bmon
+# install-tmux
